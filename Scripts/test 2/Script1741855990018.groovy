@@ -27,10 +27,11 @@ WebUI.scrollToElement(findTestObject('Page_DEMOQA/svg'), 0)
 
 WebUI.click(findTestObject('Object Repository/Page_DEMOQA/svg'))
 
+WebUI.waitForElementPresent(findTestObject('Page_DEMOQA/a_Git Pocket Guide'), 5)
+
 WebUI.setText(findTestObject('Object Repository/Page_DEMOQA/input_Book Store API_searchBox'), 'git')
 
 WebUI.delay(5)
 
 WebUI.takeScreenshot()
-
 
