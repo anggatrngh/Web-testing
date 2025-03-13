@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>POSITIVE - Add Cart</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>82156dff-81ed-4ff9-b496-cbf1074a9832</testCaseGuid>
+</TestCaseEntity>
