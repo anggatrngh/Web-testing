@@ -6,19 +6,19 @@
    <elementGuidId>5d686488-0095-41ee-ae9f-d5f4110c1d48</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>svg</value>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Interactions'])[1]/following::*[name()='svg'][1]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Elements'])[1]/preceding::*[name()='svg'][1]</value>
+         <key>CSS</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>svg >> nth=0</value>
+         <value>div:nth-child(6) > div > .avatar > svg</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>svg</value>
-      <webElementGuid>bfc2b761-2d8d-4877-811e-276f9faefcdb</webElementGuid>
+      <webElementGuid>52e6a9d6-1b29-4e39-8e5c-258ae1d52052</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>stroke</name>
       <type>Main</type>
       <value>currentColor</value>
-      <webElementGuid>0858ccf3-ee74-4054-b4a3-1dc55b76db93</webElementGuid>
+      <webElementGuid>c92a9c01-50c1-4139-af32-1fb98e6dc5bf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>fill</name>
       <type>Main</type>
       <value>currentColor</value>
-      <webElementGuid>8ff1760b-3fa4-4f83-8dca-5399c3442012</webElementGuid>
+      <webElementGuid>f742ede7-5389-4e09-892a-09769f386e6a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,15 +53,15 @@
       <name>stroke-width</name>
       <type>Main</type>
       <value>0</value>
-      <webElementGuid>981924ab-7632-4b22-a1bd-f89d4ff76f98</webElementGuid>
+      <webElementGuid>1224aaff-25c0-43b0-ba17-e93a385b4495</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>viewBox</name>
       <type>Main</type>
-      <value>0 0 448 512</value>
-      <webElementGuid>e9e1aba2-5881-4d90-9832-488ac6b06e7d</webElementGuid>
+      <value>0 0 512 512</value>
+      <webElementGuid>afd99362-66f3-456a-8588-448e32a847b4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>height</name>
       <type>Main</type>
       <value>1em</value>
-      <webElementGuid>ca6170d4-1460-4ef1-b8a7-4e9a883604e0</webElementGuid>
+      <webElementGuid>ff43e5d0-2350-4807-b566-b5c64f29a243</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>width</name>
       <type>Main</type>
       <value>1em</value>
-      <webElementGuid>b644f017-558a-4865-b185-7720ad460722</webElementGuid>
+      <webElementGuid>efa8b5c1-62f1-41c9-a1ef-14ac8f6d3303</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xmlns</name>
       <type>Main</type>
       <value>http://www.w3.org/2000/svg</value>
-      <webElementGuid>de3482a1-62e7-4303-a14c-4a97def75ac0</webElementGuid>
+      <webElementGuid>19029844-0cd3-4301-84c0-45632cb02bc8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -93,10 +93,42 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;app&quot;)/div[@class=&quot;body-height&quot;]/div[@class=&quot;home-content&quot;]/div[@class=&quot;home-body&quot;]/div[@class=&quot;category-cards&quot;]/div[@class=&quot;card mt-4 top-card&quot;]/div[1]/div[@class=&quot;avatar mx-auto white&quot;]/svg[1]</value>
-      <webElementGuid>be2796cd-315d-4679-9c2b-04e55615d290</webElementGuid>
+      <webElementGuid>bb95f01b-edd3-4a10-ab9f-cc29509e145c</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Interactions'])[1]/following::*[name()='svg'][1]</value>
+      <webElementGuid>21fd7e16-b6a9-4b30-839e-1d2843ad8b19</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Widgets'])[1]/following::*[name()='svg'][2]</value>
+      <webElementGuid>5f5c4276-13b1-4e43-9343-5be12905ba93</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Book Store Application'])[1]/preceding::*[name()='svg'][1]</value>
+      <webElementGuid>caf234e8-9b36-4af3-a944-a5aea68f46ef</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='© 2013-2020 TOOLSQA.COM | ALL RIGHTS RESERVED.'])[1]/preceding::*[name()='svg'][1]</value>
+      <webElementGuid>84167c5d-40c7-44c4-bee2-5a2b4ed7dd71</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>

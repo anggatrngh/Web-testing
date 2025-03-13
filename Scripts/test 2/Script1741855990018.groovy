@@ -19,5 +19,18 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://www.footlocker.id/?gad_source=1&gclid=Cj0KCQjwhMq-BhCFARIsAGvo0KdJDY61MZHfmD1pScuQRlYl0C0hnMFibaEPHT3QDQBT5I-lyuViPnkaAhABEALw_wcB')
+WebUI.navigateToUrl('https://demoqa.com/')
+
+WebUI.maximizeWindow()
+
+WebUI.scrollToElement(findTestObject('Page_DEMOQA/svg'), 0)
+
+WebUI.click(findTestObject('Object Repository/Page_DEMOQA/svg'))
+
+WebUI.setText(findTestObject('Object Repository/Page_DEMOQA/input_Book Store API_searchBox'), 'git')
+
+WebUI.delay(5)
+
+WebUI.takeScreenshot()
+
 
