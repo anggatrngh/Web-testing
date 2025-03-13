@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>POSITIVE - Buka Web</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>e164b7f9-1389-4e1c-90e3-a6612d6c2fe9</testCaseGuid>
+</TestCaseEntity>

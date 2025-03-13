@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>POSITIVE - Add Table DemoQA</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>c22abed4-6c5a-42ba-987e-90bceb5273c6</testCaseGuid>
+</TestCaseEntity>
