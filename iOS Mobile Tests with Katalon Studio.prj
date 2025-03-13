@@ -6,8 +6,10 @@
    <UUID>12141c9e-e6bb-4ab8-b5a4-96b7707ab5c9</UUID>
    <freeLicense>false</freeLicense>
    <migratedVersion>5.9.0</migratedVersion>
+   <modifiedEdition>ENTERPRISE</modifiedEdition>
+   <modifiedVersion>10.1.0</modifiedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
-   <projectFileLocation>/Users/anggatrinugraha/Katalon Studio/tes/iOS Mobile Tests with Katalon Studio.prj</projectFileLocation>
+   <projectFileLocation>/Users/anggatrinugraha/git/Web-testing/iOS Mobile Tests with Katalon Studio.prj</projectFileLocation>
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>

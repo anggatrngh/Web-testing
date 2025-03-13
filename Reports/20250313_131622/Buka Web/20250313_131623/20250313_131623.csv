@@ -1,0 +1,29 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Buka Web,Chrome 134.0.6998.89,,,13-03-2025 13:16:25,13-03-2025 13:16:45,20.484s,PASSED
+,,,,,,,
+Test Cases/POSITIVE - Buka Web,Chrome 134.0.6998.89,,,13-03-2025 13:16:25,13-03-2025 13:16:29,4.337s,PASSED
+"openBrowser("""")",Chrome 134.0.6998.89,,,13-03-2025 13:16:25,13-03-2025 13:16:27,1.677s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 134.0.6998.89,,,13-03-2025 13:16:27,13-03-2025 13:16:29,2.615s,PASSED
+,,,,,,,
+Test Cases/POSITIVE - Login Berhasil,Chrome 134.0.6998.89,,,13-03-2025 13:16:29,13-03-2025 13:16:40,10.462s,PASSED
+"openBrowser("""")",Chrome 134.0.6998.89,,,13-03-2025 13:16:29,13-03-2025 13:16:30,0.976s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 134.0.6998.89,,,13-03-2025 13:16:30,13-03-2025 13:16:33,2.534s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/a_Make Appointment""))",Chrome 134.0.6998.89,,,13-03-2025 13:16:33,13-03-2025 13:16:33,0.624s,PASSED
+"setText(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Username_username""), ""John Doe"")",Chrome 134.0.6998.89,,,13-03-2025 13:16:33,13-03-2025 13:16:34,0.841s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Password_password""), ""g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"")",Chrome 134.0.6998.89,,,13-03-2025 13:16:34,13-03-2025 13:16:35,0.294s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/button_Login""))",Chrome 134.0.6998.89,,,13-03-2025 13:16:35,13-03-2025 13:16:35,0.273s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107""), ""Hongkong CURA Healthcare Center"", true)",Chrome 134.0.6998.89,,,13-03-2025 13:16:35,13-03-2025 13:16:36,1.560s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Apply for hospital readmission_hospit_63901f""))",Chrome 134.0.6998.89,,,13-03-2025 13:16:36,13-03-2025 13:16:37,0.296s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Visit Date (Required)_visit_date""))",Chrome 134.0.6998.89,,,13-03-2025 13:16:37,13-03-2025 13:16:37,0.293s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/td_13""))",Chrome 134.0.6998.89,,,13-03-2025 13:16:37,13-03-2025 13:16:37,0.487s,PASSED
+"setText(findTestObject(""Object Repository/Page_CURA Healthcare Service/textarea_Comment_comment""), ""test"")",Chrome 134.0.6998.89,,,13-03-2025 13:16:37,13-03-2025 13:16:38,0.737s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/button_Book Appointment""))",Chrome 134.0.6998.89,,,13-03-2025 13:16:38,13-03-2025 13:16:38,0.288s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/a_Go to Homepage""))",Chrome 134.0.6998.89,,,13-03-2025 13:16:38,13-03-2025 13:16:40,1.203s,PASSED
+,,,,,,,
+Test Cases/NEGATIVE - Password salah,Chrome 134.0.6998.89,,,13-03-2025 13:16:40,13-03-2025 13:16:45,5.579s,PASSED
+"openBrowser("""")",Chrome 134.0.6998.89,,,13-03-2025 13:16:40,13-03-2025 13:16:41,0.918s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 134.0.6998.89,,,13-03-2025 13:16:41,13-03-2025 13:16:42,1.109s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/a_Make Appointment""))",Chrome 134.0.6998.89,,,13-03-2025 13:16:42,13-03-2025 13:16:44,2.169s,PASSED
+"setText(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Username_username""), ""anggatrinugraha"")",Chrome 134.0.6998.89,,,13-03-2025 13:16:44,13-03-2025 13:16:45,0.802s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Password_password""), ""8SQVv/p9jVRYfSV/eMGvjg=="")",Chrome 134.0.6998.89,,,13-03-2025 13:16:45,13-03-2025 13:16:45,0.272s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/button_Login""))",Chrome 134.0.6998.89,,,13-03-2025 13:16:45,13-03-2025 13:16:45,0.276s,PASSED
