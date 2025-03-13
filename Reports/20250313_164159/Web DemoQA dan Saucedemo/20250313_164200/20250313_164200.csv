@@ -1,0 +1,21 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Web DemoQA dan Saucedemo,Chrome 134.0.6998.89,,,13-03-2025 16:42:02,13-03-2025 16:42:24,22.279s,PASSED
+,,,,,,,
+Test Cases/test,Chrome 134.0.6998.89,,,13-03-2025 16:42:02,13-03-2025 16:42:08,6.292s,PASSED
+"openBrowser("""")",Chrome 134.0.6998.89,,,13-03-2025 16:42:02,13-03-2025 16:42:04,1.662s,PASSED
+"navigateToUrl(""https://www.saucedemo.com/"")",Chrome 134.0.6998.89,,,13-03-2025 16:42:04,13-03-2025 16:42:04,0.436s,PASSED
+"setText(findTestObject(""Object Repository/Page_Swag Labs/input_Swag Labs_user-name""), ""standard_user"")",Chrome 134.0.6998.89,,,13-03-2025 16:42:04,13-03-2025 16:42:06,2.096s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Swag Labs/input_Swag Labs_password""), ""qcu24s4901FyWDTwXGr6XA=="")",Chrome 134.0.6998.89,,,13-03-2025 16:42:06,13-03-2025 16:42:06,0.286s,PASSED
+"click(findTestObject(""Object Repository/Page_Swag Labs/input_Swag Labs_login-button""))",Chrome 134.0.6998.89,,,13-03-2025 16:42:06,13-03-2025 16:42:07,0.308s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_Swag Labs/select_Name (A to Z)Name (Z to A)Price (low_f7e90a""), ""za"", false)",Chrome 134.0.6998.89,,,13-03-2025 16:42:07,13-03-2025 16:42:07,0.718s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_Swag Labs/select_Name (A to Z)Name (Z to A)Price (low_f7e90a""), ""lohi"", false)",Chrome 134.0.6998.89,,,13-03-2025 16:42:07,13-03-2025 16:42:08,0.728s,PASSED
+,,,,,,,
+Test Cases/test 2,Chrome 134.0.6998.89,,,13-03-2025 16:42:08,13-03-2025 16:42:24,15.875s,PASSED
+"openBrowser("""")",Chrome 134.0.6998.89,,,13-03-2025 16:42:08,13-03-2025 16:42:09,1.002s,PASSED
+"navigateToUrl(""https://demoqa.com/"")",Chrome 134.0.6998.89,,,13-03-2025 16:42:09,13-03-2025 16:42:14,5.238s,PASSED
+maximizeWindow(),Chrome 134.0.6998.89,,,13-03-2025 16:42:14,13-03-2025 16:42:15,0.478s,PASSED
+"scrollToElement(findTestObject(""Page_DEMOQA/svg""), 0)",Chrome 134.0.6998.89,,,13-03-2025 16:42:15,13-03-2025 16:42:16,0.816s,PASSED
+"click(findTestObject(""Object Repository/Page_DEMOQA/svg""))",Chrome 134.0.6998.89,,,13-03-2025 16:42:16,13-03-2025 16:42:16,0.304s,PASSED
+"setText(findTestObject(""Object Repository/Page_DEMOQA/input_Book Store API_searchBox""), ""git"")",Chrome 134.0.6998.89,,,13-03-2025 16:42:16,13-03-2025 16:42:18,2.377s,PASSED
+delay(5),Chrome 134.0.6998.89,,,13-03-2025 16:42:18,13-03-2025 16:42:23,5.021s,PASSED
+takeScreenshot(),Chrome 134.0.6998.89,,,13-03-2025 16:42:23,13-03-2025 16:42:24,0.612s,PASSED
