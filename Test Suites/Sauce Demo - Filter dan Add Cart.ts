@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>Sauce Demo - Cart dan Facebook</name>
+   <name>Sauce Demo - Filter dan Add Cart</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -10,19 +10,19 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>true</rerunImmediately>
-   <testSuiteGuid>0c361bda-faa3-4794-aa76-b51bf60bd156</testSuiteGuid>
+   <testSuiteGuid>4a272337-6659-4d7f-a550-8ebecc99c4ad</testSuiteGuid>
    <testCaseLink>
-      <guid>b59a2709-011a-431a-94d2-8c9dfc17d819</guid>
+      <guid>79b83bd8-6bdd-4087-af09-47e21c927986</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/POSITIVE - Add Cart</testCaseId>
+      <testCaseId>Test Cases/POSITIVE - Filter Saucedemo</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>ecbc259f-8a1d-441d-9291-509861eb6857</guid>
+      <guid>1a8610c9-07c7-47c6-8f91-a8737d97be81</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/POSITIVE - Link Facebook</testCaseId>
+      <testCaseId>Test Cases/POSITIVE - Add Cart</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>
