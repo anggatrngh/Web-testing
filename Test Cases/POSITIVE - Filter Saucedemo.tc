@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>test 2</name>
+   <name>POSITIVE - Filter Saucedemo</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>30927f18-0134-4652-b952-71373fca503d</testCaseGuid>
+   <testCaseGuid>92cfc616-3739-49ef-a8dd-307faecca22b</testCaseGuid>
 </TestCaseEntity>

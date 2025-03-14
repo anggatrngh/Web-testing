@@ -19,5 +19,5 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://www.footlocker.id/?gad_source=1&gclid=Cj0KCQjwhMq-BhCFARIsAGvo0KdJDY61MZHfmD1pScuQRlYl0C0hnMFibaEPHT3QDQBT5I-lyuViPnkaAhABEALw_wcB')
+WebUI.navigateToUrl('https://katalon-demo-cura.herokuapp.com/')
 
