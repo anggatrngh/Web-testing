@@ -7,18 +7,18 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>#fixedban > div > div</value>
+         <value>div.col-12.mt-4.col-md-6 > div:nth-of-type(3)</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='fixedban']/div/div</value>
+         <value>//div[@id='app']/div/div/div/div[2]/div[3]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>#fixedban div >> nth=1</value>
+         <value>.col-12 > div:nth-child(3)</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -29,18 +29,58 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>1451a1fd-0bb7-49cf-89c1-a85dd05713fe</webElementGuid>
+      <webElementGuid>26792420-e75e-471b-9bed-0b6c91027f2d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;fixedban&quot;)/div[1]/div[1]</value>
-      <webElementGuid>c5f20c57-b8b2-40ce-be48-e56f400e703d</webElementGuid>
+      <value>id(&quot;app&quot;)/div[@class=&quot;body-height&quot;]/div[@class=&quot;container playgound-body&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-12 mt-4 col-md-6&quot;]/div[3]</value>
+      <webElementGuid>76295a4d-ff5c-420b-8925-53d36b2a445a</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='app']/div/div/div/div[2]/div[3]</value>
+      <webElementGuid>101a1db8-f0a3-4af1-ab43-6c285e83a65c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Date And Time'])[1]/following::div[4]</value>
+      <webElementGuid>5cffb4a0-69fb-4b38-b33a-efb3c57330e1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Select Date'])[1]/following::div[9]</value>
+      <webElementGuid>c112186b-5b30-4179-b215-41c8282ac831</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='© 2013-2020 TOOLSQA.COM | ALL RIGHTS RESERVED.'])[1]/preceding::div[12]</value>
+      <webElementGuid>1607f9d8-cfe3-4a71-9c21-a045f370cd50</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[3]</value>
+      <webElementGuid>b3519ca6-9a94-4cb1-9a8c-b1c46ecd0a2c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>

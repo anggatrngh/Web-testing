@@ -26,8 +26,10 @@ WebUI.maximizeWindow()
 WebUI.click(findTestObject('Page_DEMOQA/h5_Elements'))
 
 if (WebUI.verifyElementPresent(findTestObject('Ad_Close_Button'), 2, FailureHandling.OPTIONAL)) {
-	WebUI.click(findTestObject('Ad_Close_Button'))
+    WebUI.click(findTestObject('Ad_Close_Button'))
 }
+
+WebUI.delay(5)
 
 WebUI.scrollToElement(findTestObject('Page_DEMOQA/div_Alerts, Frame  Windows'), 0)
 

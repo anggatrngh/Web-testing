@@ -41,6 +41,8 @@ WebUI.selectOptionByValue(findTestObject('Object Repository/Page_DEMOQA/select_J
 
 WebUI.click(findTestObject('Object Repository/Page_DEMOQA/div_15'))
 
+WebUI.scrollToElement(findTestObject('Page_DEMOQA/div'), 0)
+
 WebUI.click(findTestObject('Object Repository/Page_DEMOQA/input_Date And Time_dateAndTimePickerInput'))
 
 WebUI.click(findTestObject('Object Repository/Page_DEMOQA/span_March_react-datepicker__year-read-view_281a40'))
