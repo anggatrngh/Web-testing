@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Web demo QA" time="122.548" tests="7" failures="0" errors="0">
+   <testsuite name="Web demo QA" tests="7" failures="0" errors="0" time="122.548" skipped="0" timestamp="14-03-2025T13:18:59" hostname="anggatrinugraha - localhost" id="Test Suites/Web demo QA">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="/Users/anggatrinugraha/git/Web-testing/Reports/20250314_131856/Web demo QA/20250314_131857"/>
+         <property name="logFiles" value="/Users/anggatrinugraha/git/Web-testing/Reports/20250314_131856/Web demo QA/20250314_131857/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="anggatrinugraha - localhost"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="10.1.0.223"/>
+         <property name="browser" value="Chrome 134.0.6998.89"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="sessionId" value="d16b2c1716ada45ab56987054808294b"/>
+         <property name="seleniumVersion" value="4.22.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/POSITIVE - Text Box DemoQA" time="20.03" classname="Test Cases/POSITIVE - Text Box DemoQA" status="PASSED">
+         <system-out><![CDATA[14-03-2025T13:18:59 - [TEST_CASE][PASSED] - Test Cases/POSITIVE - Text Box DemoQA: Test Cases/POSITIVE - Text Box DemoQA
+
+14-03-2025T13:18:59 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+14-03-2025T13:18:59 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+14-03-2025T13:18:59 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+14-03-2025T13:19:01 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+14-03-2025T13:19:01 - [TEST_STEP][PASSED] - navigateToUrl("https://demoqa.com/"): Navigate to 'https://demoqa.com/' successfully
+
+14-03-2025T13:19:06 - [MESSAGE][PASSED] - Navigate to 'https://demoqa.com/' successfully
+
+14-03-2025T13:19:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_DEMOQA/path")): Object: 'Object Repository/Page_DEMOQA/path' is clicked on
+
+14-03-2025T13:19:07 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_DEMOQA/path'. Try using Self-healing.
+
+14-03-2025T13:19:08 - [MESSAGE][INFO] - [SELF-HEALING] No working XPath is found.
+
+14-03-2025T13:19:08 - [MESSAGE][INFO] - [SELF-HEALING] Screenshot: /Users/anggatrinugraha/git/Web-testing/Reports/Self-healing/Object Repository/Page_DEMOQA/path_SMART_LOCATOR.png
+
+14-03-2025T13:19:08 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_DEMOQA/path' was broken. Propose an alternative one: 'path >> nth=0'.
+
+14-03-2025T13:19:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DEMOQA/path' is clicked on
+
+14-03-2025T13:19:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_DEMOQA/li_Text Box")): Object: 'Object Repository/Page_DEMOQA/li_Text Box' is clicked on
+
+14-03-2025T13:19:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DEMOQA/li_Text Box' is clicked on
+
+14-03-2025T13:19:10 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_DEMOQA/input_Full Name_userName"), "angga"): Text 'angga' is set on object 'Object Repository/Page_DEMOQA/input_Full Name_userName'
+
+14-03-2025T13:19:11 - [MESSAGE][PASSED] - Text 'angga' is set on object 'Object Repository/Page_DEMOQA/input_Full Name_userName'
+
+14-03-2025T13:19:11 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_DEMOQA/input_Email_userEmail"), "anggatri78@gmail.com"): Text 'anggatri78@gmail.com' is set on object 'Object Repository/Page_DEMOQA/input_Email_userEmail'
+
+14-03-2025T13:19:12 - [MESSAGE][PASSED] - Text 'anggatri78@gmail.com' is set on object 'Object Repository/Page_DEMOQA/input_Email_userEmail'
+
+14-03-2025T13:19:12 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_DEMOQA/textarea_Current Address_currentAddress"), "anggatri78@gmail.com"): Text 'anggatri78@gmail.com' is set on object 'Object Repository/Page_DEMOQA/textarea_Current Address_currentAddress'
+
+14-03-2025T13:19:12 - [MESSAGE][PASSED] - Text 'anggatri78@gmail.com' is set on object 'Object Repository/Page_DEMOQA/textarea_Current Address_currentAddress'
+
+14-03-2025T13:19:12 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_DEMOQA/textarea_Permanent Address_permanentAddress"), "jalan kucica"): Text 'jalan kucica' is set on object 'Object Repository/Page_DEMOQA/textarea_Permanent Address_permanentAddress'
+
+14-03-2025T13:19:13 - [MESSAGE][PASSED] - Text 'jalan kucica' is set on object 'Object Repository/Page_DEMOQA/textarea_Permanent Address_permanentAddress'
+
+14-03-2025T13:19:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_DEMOQA/button_Submit")): Object: 'Object Repository/Page_DEMOQA/button_Submit' is clicked on
+
+14-03-2025T13:19:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DEMOQA/button_Submit' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/POSITIVE - Radio Button DemoQA" time="10.738" classname="Test Cases/POSITIVE - Radio Button DemoQA" status="PASSED">
+         <system-out><![CDATA[14-03-2025T13:19:19 - [TEST_CASE][PASSED] - Test Cases/POSITIVE - Radio Button DemoQA: Test Cases/POSITIVE - Radio Button DemoQA
+
+14-03-2025T13:19:19 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+14-03-2025T13:19:19 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+14-03-2025T13:19:19 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+14-03-2025T13:19:19 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+14-03-2025T13:19:20 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+14-03-2025T13:19:20 - [TEST_STEP][PASSED] - navigateToUrl("https://demoqa.com/"): Navigate to 'https://demoqa.com/' successfully
+
+14-03-2025T13:19:24 - [MESSAGE][PASSED] - Navigate to 'https://demoqa.com/' successfully
+
+14-03-2025T13:19:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_DEMOQA/path")): Object: 'Object Repository/Page_DEMOQA/path' is clicked on
+
+14-03-2025T13:19:25 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_DEMOQA/path'. Try using Self-healing.
+
+14-03-2025T13:19:26 - [MESSAGE][INFO] - [SELF-HEALING] No working XPath is found.
+
+14-03-2025T13:19:26 - [MESSAGE][INFO] - [SELF-HEALING] Screenshot: /Users/anggatrinugraha/git/Web-testing/Reports/Self-healing/Object Repository/Page_DEMOQA/path_SMART_LOCATOR.png
+
+14-03-2025T13:19:26 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_DEMOQA/path' was broken. Propose an alternative one: 'path >> nth=0'.
+
+14-03-2025T13:19:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DEMOQA/path' is clicked on
+
+14-03-2025T13:19:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_DEMOQA/li_Radio Button")): Object: 'Object Repository/Page_DEMOQA/li_Radio Button' is clicked on
+
+14-03-2025T13:19:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DEMOQA/li_Radio Button' is clicked on
+
+14-03-2025T13:19:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_DEMOQA/label_Yes")): Object: 'Object Repository/Page_DEMOQA/label_Yes' is clicked on
+
+14-03-2025T13:19:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DEMOQA/label_Yes' is clicked on
+
+14-03-2025T13:19:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_DEMOQA/label_Impressive")): Object: 'Object Repository/Page_DEMOQA/label_Impressive' is clicked on
+
+14-03-2025T13:19:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DEMOQA/label_Impressive' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/POSITIVE - Edit Table DemoQA" time="15.717" classname="Test Cases/POSITIVE - Edit Table DemoQA" status="PASSED">
+         <system-out><![CDATA[14-03-2025T13:19:30 - [TEST_CASE][PASSED] - Test Cases/POSITIVE - Edit Table DemoQA: Test Cases/POSITIVE - Edit Table DemoQA
+
+14-03-2025T13:19:30 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+14-03-2025T13:19:30 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+14-03-2025T13:19:30 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+14-03-2025T13:19:30 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+14-03-2025T13:19:31 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+14-03-2025T13:19:31 - [TEST_STEP][PASSED] - navigateToUrl("https://demoqa.com/"): Navigate to 'https://demoqa.com/' successfully
+
+14-03-2025T13:19:36 - [MESSAGE][PASSED] - Navigate to 'https://demoqa.com/' successfully
+
+14-03-2025T13:19:36 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+14-03-2025T13:19:36 - [MESSAGE][PASSED] - Current window maximized
+
+14-03-2025T13:19:36 - [TEST_STEP][PASSED] - click(findTestObject("Page_DEMOQA/h5_Elements")): Object: 'Object Repository/Page_DEMOQA/h5_Elements' is clicked on
+
+14-03-2025T13:19:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DEMOQA/h5_Elements' is clicked on
+
+14-03-2025T13:19:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_DEMOQA/li_Web Tables")): Object: 'Object Repository/Page_DEMOQA/li_Web Tables' is clicked on
+
+14-03-2025T13:19:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DEMOQA/li_Web Tables' is clicked on
+
+14-03-2025T13:19:39 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_DEMOQA/input_Add_searchBox"), ""): Text '' is set on object 'Object Repository/Page_DEMOQA/input_Add_searchBox'
+
+14-03-2025T13:19:40 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_DEMOQA/input_Add_searchBox'
+
+14-03-2025T13:19:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_DEMOQA/svg_1")): Object: 'Object Repository/Page_DEMOQA/svg_1' is clicked on
+
+14-03-2025T13:19:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DEMOQA/svg_1' is clicked on
+
+14-03-2025T13:19:41 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_DEMOQA/input_First Name_firstName"), "angga"): Text 'angga' is set on object 'Object Repository/Page_DEMOQA/input_First Name_firstName'
+
+14-03-2025T13:19:41 - [MESSAGE][PASSED] - Text 'angga' is set on object 'Object Repository/Page_DEMOQA/input_First Name_firstName'
+
+14-03-2025T13:19:41 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_DEMOQA/input_Last Name_lastName"), "trinugraha"): Text 'trinugraha' is set on object 'Object Repository/Page_DEMOQA/input_Last Name_lastName'
+
+14-03-2025T13:19:42 - [MESSAGE][PASSED] - Text 'trinugraha' is set on object 'Object Repository/Page_DEMOQA/input_Last Name_lastName'
+
+14-03-2025T13:19:42 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_DEMOQA/input_Age_age"), "18"): Text '18' is set on object 'Object Repository/Page_DEMOQA/input_Age_age'
+
+14-03-2025T13:19:43 - [MESSAGE][PASSED] - Text '18' is set on object 'Object Repository/Page_DEMOQA/input_Age_age'
+
+14-03-2025T13:19:43 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_DEMOQA/input_Email_userEmail"), "cierra@example.com"): Text 'cierra@example.com' is set on object 'Object Repository/Page_DEMOQA/input_Email_userEmail'
+
+14-03-2025T13:19:43 - [MESSAGE][PASSED] - Text 'cierra@example.com' is set on object 'Object Repository/Page_DEMOQA/input_Email_userEmail'
+
+14-03-2025T13:19:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_DEMOQA/input_Email_userEmail")): Object: 'Object Repository/Page_DEMOQA/input_Email_userEmail' is clicked on
+
+14-03-2025T13:19:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DEMOQA/input_Email_userEmail' is clicked on
+
+14-03-2025T13:19:43 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_DEMOQA/input_Email_userEmail"), "anggatri78@gmail.com"): Text 'anggatri78@gmail.com' is set on object 'Object Repository/Page_DEMOQA/input_Email_userEmail'
+
+14-03-2025T13:19:44 - [MESSAGE][PASSED] - Text 'anggatri78@gmail.com' is set on object 'Object Repository/Page_DEMOQA/input_Email_userEmail'
+
+14-03-2025T13:19:44 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_DEMOQA/input_Salary_salary"), "500000000"): Text '500000000' is set on object 'Object Repository/Page_DEMOQA/input_Salary_salary'
+
+14-03-2025T13:19:45 - [MESSAGE][PASSED] - Text '500000000' is set on object 'Object Repository/Page_DEMOQA/input_Salary_salary'
+
+14-03-2025T13:19:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_DEMOQA/button_Submit")): Object: 'Object Repository/Page_DEMOQA/button_Submit' is clicked on
+
+14-03-2025T13:19:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DEMOQA/button_Submit' is clicked on
+
+14-03-2025T13:19:45 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_DEMOQA/input_Add_searchBox"), "angga"): Text 'angga' is set on object 'Object Repository/Page_DEMOQA/input_Add_searchBox'
+
+14-03-2025T13:19:46 - [MESSAGE][PASSED] - Text 'angga' is set on object 'Object Repository/Page_DEMOQA/input_Add_searchBox']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/POSITIVE - Chekbox DemoQA" time="9.449" classname="Test Cases/POSITIVE - Chekbox DemoQA" status="PASSED">
+         <system-out><![CDATA[14-03-2025T13:19:46 - [TEST_CASE][PASSED] - Test Cases/POSITIVE - Chekbox DemoQA: Test Cases/POSITIVE - Chekbox DemoQA
+
+14-03-2025T13:19:46 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+14-03-2025T13:19:46 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+14-03-2025T13:19:46 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+14-03-2025T13:19:46 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+14-03-2025T13:19:47 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+14-03-2025T13:19:47 - [TEST_STEP][PASSED] - navigateToUrl("https://demoqa.com/"): Navigate to 'https://demoqa.com/' successfully
+
+14-03-2025T13:19:51 - [MESSAGE][PASSED] - Navigate to 'https://demoqa.com/' successfully
+
+14-03-2025T13:19:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_DEMOQA/path")): Object: 'Object Repository/Page_DEMOQA/path' is clicked on
+
+14-03-2025T13:19:52 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_DEMOQA/path'. Try using Self-healing.
+
+14-03-2025T13:19:53 - [MESSAGE][INFO] - [SELF-HEALING] No working XPath is found.
+
+14-03-2025T13:19:53 - [MESSAGE][INFO] - [SELF-HEALING] Screenshot: /Users/anggatrinugraha/git/Web-testing/Reports/Self-healing/Object Repository/Page_DEMOQA/path_SMART_LOCATOR.png
+
+14-03-2025T13:19:53 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_DEMOQA/path' was broken. Propose an alternative one: 'path >> nth=0'.
+
+14-03-2025T13:19:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DEMOQA/path' is clicked on
+
+14-03-2025T13:19:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_DEMOQA/li_Check Box")): Object: 'Object Repository/Page_DEMOQA/li_Check Box' is clicked on
+
+14-03-2025T13:19:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DEMOQA/li_Check Box' is clicked on
+
+14-03-2025T13:19:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_DEMOQA/svg_Check Box_rct-icon rct-icon-uncheck")): Object: 'Object Repository/Page_DEMOQA/svg_Check Box_rct-icon rct-icon-uncheck' is clicked on
+
+14-03-2025T13:19:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DEMOQA/svg_Check Box_rct-icon rct-icon-uncheck' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/POSITIVE - Add Table DemoQA" time="14.267" classname="Test Cases/POSITIVE - Add Table DemoQA" status="PASSED">
+         <system-out><![CDATA[14-03-2025T13:19:55 - [TEST_CASE][PASSED] - Test Cases/POSITIVE - Add Table DemoQA: Test Cases/POSITIVE - Add Table DemoQA
+
+14-03-2025T13:19:55 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+14-03-2025T13:19:55 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+14-03-2025T13:19:55 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+14-03-2025T13:19:55 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+14-03-2025T13:19:56 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+14-03-2025T13:19:56 - [TEST_STEP][PASSED] - navigateToUrl("https://demoqa.com/"): Navigate to 'https://demoqa.com/' successfully
+
+14-03-2025T13:20:00 - [MESSAGE][PASSED] - Navigate to 'https://demoqa.com/' successfully
+
+14-03-2025T13:20:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_DEMOQA/path")): Object: 'Object Repository/Page_DEMOQA/path' is clicked on
+
+14-03-2025T13:20:00 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_DEMOQA/path'. Try using Self-healing.
+
+14-03-2025T13:20:01 - [MESSAGE][INFO] - [SELF-HEALING] No working XPath is found.
+
+14-03-2025T13:20:02 - [MESSAGE][INFO] - [SELF-HEALING] Screenshot: /Users/anggatrinugraha/git/Web-testing/Reports/Self-healing/Object Repository/Page_DEMOQA/path_SMART_LOCATOR.png
+
+14-03-2025T13:20:02 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_DEMOQA/path' was broken. Propose an alternative one: 'path >> nth=0'.
+
+14-03-2025T13:20:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DEMOQA/path' is clicked on
+
+14-03-2025T13:20:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_DEMOQA/span_Web Tables")): Object: 'Object Repository/Page_DEMOQA/span_Web Tables' is clicked on
+
+14-03-2025T13:20:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DEMOQA/span_Web Tables' is clicked on
+
+14-03-2025T13:20:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_DEMOQA/button_Add")): Object: 'Object Repository/Page_DEMOQA/button_Add' is clicked on
+
+14-03-2025T13:20:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DEMOQA/button_Add' is clicked on
+
+14-03-2025T13:20:05 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_DEMOQA/input_First Name_firstName"), "JOKO"): Text 'JOKO' is set on object 'Object Repository/Page_DEMOQA/input_First Name_firstName'
+
+14-03-2025T13:20:06 - [MESSAGE][PASSED] - Text 'JOKO' is set on object 'Object Repository/Page_DEMOQA/input_First Name_firstName'
+
+14-03-2025T13:20:06 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_DEMOQA/input_Last Name_lastName"), "santoso"): Text 'santoso' is set on object 'Object Repository/Page_DEMOQA/input_Last Name_lastName'
+
+14-03-2025T13:20:06 - [MESSAGE][PASSED] - Text 'santoso' is set on object 'Object Repository/Page_DEMOQA/input_Last Name_lastName'
+
+14-03-2025T13:20:06 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_DEMOQA/input_Email_userEmail"), "jokofomo@gmail.com"): Text 'jokofomo@gmail.com' is set on object 'Object Repository/Page_DEMOQA/input_Email_userEmail'
+
+14-03-2025T13:20:07 - [MESSAGE][PASSED] - Text 'jokofomo@gmail.com' is set on object 'Object Repository/Page_DEMOQA/input_Email_userEmail'
+
+14-03-2025T13:20:07 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_DEMOQA/input_Age_age"), "17"): Text '17' is set on object 'Object Repository/Page_DEMOQA/input_Age_age'
+
+14-03-2025T13:20:07 - [MESSAGE][PASSED] - Text '17' is set on object 'Object Repository/Page_DEMOQA/input_Age_age'
+
+14-03-2025T13:20:07 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_DEMOQA/input_Salary_salary"), "1000000000"): Text '1000000000' is set on object 'Object Repository/Page_DEMOQA/input_Salary_salary'
+
+14-03-2025T13:20:08 - [MESSAGE][PASSED] - Text '1000000000' is set on object 'Object Repository/Page_DEMOQA/input_Salary_salary'
+
+14-03-2025T13:20:08 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_DEMOQA/input_Department_department"), "matahari dept store"): Text 'matahari dept store' is set on object 'Object Repository/Page_DEMOQA/input_Department_department'
+
+14-03-2025T13:20:08 - [MESSAGE][PASSED] - Text 'matahari dept store' is set on object 'Object Repository/Page_DEMOQA/input_Department_department'
+
+14-03-2025T13:20:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_DEMOQA/button_Submit")): Object: 'Object Repository/Page_DEMOQA/button_Submit' is clicked on
+
+14-03-2025T13:20:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DEMOQA/button_Submit' is clicked on
+
+14-03-2025T13:20:09 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_DEMOQA/input_Add_searchBox"), "joko"): Text 'joko' is set on object 'Object Repository/Page_DEMOQA/input_Add_searchBox'
+
+14-03-2025T13:20:09 - [MESSAGE][PASSED] - Text 'joko' is set on object 'Object Repository/Page_DEMOQA/input_Add_searchBox']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/POSITIVE - Open Link Home DemoQA" time="9.331" classname="Test Cases/POSITIVE - Open Link Home DemoQA" status="PASSED">
+         <system-out><![CDATA[14-03-2025T13:20:09 - [TEST_CASE][PASSED] - Test Cases/POSITIVE - Open Link Home DemoQA: Test Cases/POSITIVE - Open Link Home DemoQA
+
+14-03-2025T13:20:09 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+14-03-2025T13:20:09 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+14-03-2025T13:20:10 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+14-03-2025T13:20:10 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+14-03-2025T13:20:11 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+14-03-2025T13:20:11 - [TEST_STEP][PASSED] - navigateToUrl("https://demoqa.com/"): Navigate to 'https://demoqa.com/' successfully
+
+14-03-2025T13:20:11 - [MESSAGE][PASSED] - Navigate to 'https://demoqa.com/' successfully
+
+14-03-2025T13:20:11 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+14-03-2025T13:20:16 - [MESSAGE][PASSED] - Current window maximized
+
+14-03-2025T13:20:16 - [TEST_STEP][PASSED] - click(findTestObject("Page_DEMOQA/h5_Elements")): Object: 'Object Repository/Page_DEMOQA/h5_Elements' is clicked on
+
+14-03-2025T13:20:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DEMOQA/h5_Elements' is clicked on
+
+14-03-2025T13:20:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_DEMOQA/li_Links")): Object: 'Object Repository/Page_DEMOQA/li_Links' is clicked on
+
+14-03-2025T13:20:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DEMOQA/li_Links' is clicked on
+
+14-03-2025T13:20:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_DEMOQA/a_Home")): Object: 'Object Repository/Page_DEMOQA/a_Home' is clicked on
+
+14-03-2025T13:20:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DEMOQA/a_Home' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/POSITIVE - Click Button DemoQA" time="42.849" classname="Test Cases/POSITIVE - Click Button DemoQA" status="PASSED">
+         <system-out><![CDATA[14-03-2025T13:20:19 - [TEST_CASE][PASSED] - Test Cases/POSITIVE - Click Button DemoQA: Test Cases/POSITIVE - Click Button DemoQA
+
+14-03-2025T13:20:19 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+14-03-2025T13:20:19 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+14-03-2025T13:20:19 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+14-03-2025T13:20:19 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+14-03-2025T13:20:20 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+14-03-2025T13:20:20 - [TEST_STEP][PASSED] - navigateToUrl("https://demoqa.com/"): Navigate to 'https://demoqa.com/' successfully
+
+14-03-2025T13:20:24 - [MESSAGE][PASSED] - Navigate to 'https://demoqa.com/' successfully
+
+14-03-2025T13:20:24 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+14-03-2025T13:20:24 - [MESSAGE][PASSED] - Current window maximized
+
+14-03-2025T13:20:24 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+14-03-2025T13:20:26 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+14-03-2025T13:20:26 - [TEST_STEP][PASSED] - click(findTestObject("Page_DEMOQA/h5_Elements")): Object: 'Object Repository/Page_DEMOQA/h5_Elements' is clicked on
+
+14-03-2025T13:20:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DEMOQA/h5_Elements' is clicked on
+
+14-03-2025T13:20:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_DEMOQA/li_Buttons")): Object: 'Object Repository/Page_DEMOQA/li_Buttons' is clicked on
+
+14-03-2025T13:20:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DEMOQA/li_Buttons' is clicked on
+
+14-03-2025T13:20:28 - [TEST_STEP][PASSED] - doubleClick(findTestObject("Object Repository/Page_DEMOQA/button_Double Click Me")): Object: 'Object Repository/Page_DEMOQA/button_Double Click Me' is double clicked on
+
+14-03-2025T13:20:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DEMOQA/button_Double Click Me' is double clicked on
+
+14-03-2025T13:20:29 - [TEST_STEP][PASSED] - rightClick(findTestObject("Object Repository/Page_DEMOQA/button_Right Click Me")): Object: 'Object Repository/Page_DEMOQA/button_Right Click Me' is right clicked on
+
+14-03-2025T13:20:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DEMOQA/button_Right Click Me' is right clicked on
+
+14-03-2025T13:20:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_DEMOQA/button_Click Me")): Object: 'Object Repository/Page_DEMOQA/button_Click Me' is clicked on
+
+14-03-2025T13:21:01 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //button[@id='zUSk3']'. Please recheck the objects properties to make sure the desired element is located. 
+
+14-03-2025T13:21:01 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_DEMOQA/button_Click Me'. Try using Self-healing.
+
+14-03-2025T13:21:01 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_DEMOQA/button_Click Me' was broken. Propose an alternative one: '//div[@id='app']/div/div/div/div[2]/div[2]/div[3]/button'.
+
+14-03-2025T13:21:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_DEMOQA/button_Click Me' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[14-03-2025T13:18:59 - [TEST_SUITE][PASSED] - Web demo QA: Test Cases/POSITIVE - Click Button DemoQA]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
