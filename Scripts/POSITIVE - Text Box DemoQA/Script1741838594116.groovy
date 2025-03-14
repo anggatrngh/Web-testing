@@ -21,7 +21,9 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://demoqa.com/')
 
-WebUI.click(findTestObject('Object Repository/Page_DEMOQA/path'))
+WebUI.maximizeWindow()
+
+WebUI.click(findTestObject('Page_DEMOQA/h5_Elements'))
 
 WebUI.click(findTestObject('Object Repository/Page_DEMOQA/li_Text Box'))
 
