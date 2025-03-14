@@ -1,0 +1,172 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Web demo QA,Chrome 134.0.6998.89,,,15-03-2025 04:56:16,15-03-2025 04:59:59,3m - 42.526s,PASSED
+,,,,,,,
+Test Cases/POSITIVE - Text Box DemoQA,Chrome 134.0.6998.89,,,15-03-2025 04:56:16,15-03-2025 04:56:35,19.209s,PASSED
+"openBrowser("""")",Chrome 134.0.6998.89,,,15-03-2025 04:56:16,15-03-2025 04:56:18,1.885s,PASSED
+"navigateToUrl(""https://demoqa.com/"")",Chrome 134.0.6998.89,,,15-03-2025 04:56:18,15-03-2025 04:56:19,0.625s,PASSED
+maximizeWindow(),Chrome 134.0.6998.89,,,15-03-2025 04:56:19,15-03-2025 04:56:23,4.596s,PASSED
+"click(findTestObject(""Page_DEMOQA/h5_Elements""))",Chrome 134.0.6998.89,,,15-03-2025 04:56:23,15-03-2025 04:56:24,0.700s,PASSED
+"click(findTestObject(""Object Repository/Page_DEMOQA/li_Text Box""))",Chrome 134.0.6998.89,,,15-03-2025 04:56:24,15-03-2025 04:56:25,1.546s,PASSED
+"setText(findTestObject(""Object Repository/Page_DEMOQA/input_Full Name_userName""), ""angga"")",Chrome 134.0.6998.89,,,15-03-2025 04:56:25,15-03-2025 04:56:27,1.339s,PASSED
+"setText(findTestObject(""Object Repository/Page_DEMOQA/input_Email_userEmail""), ""anggatri78@gmail.com"")",Chrome 134.0.6998.89,,,15-03-2025 04:56:27,15-03-2025 04:56:28,0.940s,PASSED
+"setText(findTestObject(""Object Repository/Page_DEMOQA/textarea_Current Address_currentAddress""), ""anggatri78@gmail.com"")",Chrome 134.0.6998.89,,,15-03-2025 04:56:28,15-03-2025 04:56:28,0.507s,PASSED
+"setText(findTestObject(""Object Repository/Page_DEMOQA/textarea_Permanent Address_permanentAddress""), ""jalan kucica"")",Chrome 134.0.6998.89,,,15-03-2025 04:56:28,15-03-2025 04:56:29,0.510s,PASSED
+"click(findTestObject(""Object Repository/Page_DEMOQA/button_Submit""))",Chrome 134.0.6998.89,,,15-03-2025 04:56:29,15-03-2025 04:56:35,6.511s,PASSED
+,,,,,,,
+Test Cases/POSITIVE - Radio Button DemoQA,Chrome 134.0.6998.89,,,15-03-2025 04:56:35,15-03-2025 04:56:46,10.383s,PASSED
+"openBrowser("""")",Chrome 134.0.6998.89,,,15-03-2025 04:56:35,15-03-2025 04:56:37,1.208s,PASSED
+"navigateToUrl(""https://demoqa.com/"")",Chrome 134.0.6998.89,,,15-03-2025 04:56:37,15-03-2025 04:56:41,4.861s,PASSED
+maximizeWindow(),Chrome 134.0.6998.89,,,15-03-2025 04:56:41,15-03-2025 04:56:42,0.402s,PASSED
+"click(findTestObject(""Page_DEMOQA/h5_Elements""))",Chrome 134.0.6998.89,,,15-03-2025 04:56:42,15-03-2025 04:56:43,0.736s,PASSED
+"click(findTestObject(""Object Repository/Page_DEMOQA/li_Radio Button""))",Chrome 134.0.6998.89,,,15-03-2025 04:56:43,15-03-2025 04:56:44,1.959s,PASSED
+"click(findTestObject(""Object Repository/Page_DEMOQA/label_Yes""))",Chrome 134.0.6998.89,,,15-03-2025 04:56:44,15-03-2025 04:56:45,0.702s,PASSED
+"click(findTestObject(""Object Repository/Page_DEMOQA/label_Impressive""))",Chrome 134.0.6998.89,,,15-03-2025 04:56:45,15-03-2025 04:56:46,0.479s,PASSED
+,,,,,,,
+Test Cases/POSITIVE - Edit Table DemoQA,Chrome 134.0.6998.89,,,15-03-2025 04:56:46,15-03-2025 04:57:03,17.356s,PASSED
+"openBrowser("""")",Chrome 134.0.6998.89,,,15-03-2025 04:56:46,15-03-2025 04:56:47,0.992s,PASSED
+"navigateToUrl(""https://demoqa.com/"")",Chrome 134.0.6998.89,,,15-03-2025 04:56:47,15-03-2025 04:56:54,7.041s,PASSED
+maximizeWindow(),Chrome 134.0.6998.89,,,15-03-2025 04:56:54,15-03-2025 04:56:54,0.402s,PASSED
+"click(findTestObject(""Page_DEMOQA/h5_Elements""))",Chrome 134.0.6998.89,,,15-03-2025 04:56:54,15-03-2025 04:56:55,0.729s,PASSED
+"click(findTestObject(""Object Repository/Page_DEMOQA/li_Web Tables""))",Chrome 134.0.6998.89,,,15-03-2025 04:56:55,15-03-2025 04:56:56,1.524s,PASSED
+"setText(findTestObject(""Object Repository/Page_DEMOQA/input_Add_searchBox""), """")",Chrome 134.0.6998.89,,,15-03-2025 04:56:56,15-03-2025 04:56:58,1.554s,PASSED
+"click(findTestObject(""Object Repository/Page_DEMOQA/svg_1""))",Chrome 134.0.6998.89,,,15-03-2025 04:56:58,15-03-2025 04:56:58,0.273s,PASSED
+"setText(findTestObject(""Object Repository/Page_DEMOQA/input_First Name_firstName""), ""angga"")",Chrome 134.0.6998.89,,,15-03-2025 04:56:58,15-03-2025 04:56:59,0.796s,PASSED
+"setText(findTestObject(""Object Repository/Page_DEMOQA/input_Last Name_lastName""), ""trinugraha"")",Chrome 134.0.6998.89,,,15-03-2025 04:56:59,15-03-2025 04:57:00,0.542s,PASSED
+"setText(findTestObject(""Object Repository/Page_DEMOQA/input_Age_age""), ""18"")",Chrome 134.0.6998.89,,,15-03-2025 04:57:00,15-03-2025 04:57:00,0.524s,PASSED
+"setText(findTestObject(""Object Repository/Page_DEMOQA/input_Email_userEmail""), ""cierra@example.com"")",Chrome 134.0.6998.89,,,15-03-2025 04:57:00,15-03-2025 04:57:01,0.535s,PASSED
+"click(findTestObject(""Object Repository/Page_DEMOQA/input_Email_userEmail""))",Chrome 134.0.6998.89,,,15-03-2025 04:57:01,15-03-2025 04:57:01,0.265s,PASSED
+"setText(findTestObject(""Object Repository/Page_DEMOQA/input_Email_userEmail""), ""anggatri78@gmail.com"")",Chrome 134.0.6998.89,,,15-03-2025 04:57:01,15-03-2025 04:57:01,0.555s,PASSED
+"setText(findTestObject(""Object Repository/Page_DEMOQA/input_Salary_salary""), ""500000000"")",Chrome 134.0.6998.89,,,15-03-2025 04:57:01,15-03-2025 04:57:02,0.532s,PASSED
+"click(findTestObject(""Object Repository/Page_DEMOQA/button_Submit""))",Chrome 134.0.6998.89,,,15-03-2025 04:57:02,15-03-2025 04:57:02,0.291s,PASSED
+"setText(findTestObject(""Object Repository/Page_DEMOQA/input_Add_searchBox""), ""angga"")",Chrome 134.0.6998.89,,,15-03-2025 04:57:02,15-03-2025 04:57:03,0.759s,PASSED
+,,,,,,,
+Test Cases/POSITIVE - Chekbox DemoQA,Chrome 134.0.6998.89,,,15-03-2025 04:57:03,15-03-2025 04:57:15,11.609s,PASSED
+"openBrowser("""")",Chrome 134.0.6998.89,,,15-03-2025 04:57:03,15-03-2025 04:57:04,0.950s,PASSED
+"navigateToUrl(""https://demoqa.com/"")",Chrome 134.0.6998.89,,,15-03-2025 04:57:04,15-03-2025 04:57:11,7.139s,PASSED
+maximizeWindow(),Chrome 134.0.6998.89,,,15-03-2025 04:57:11,15-03-2025 04:57:12,0.485s,PASSED
+"click(findTestObject(""Page_DEMOQA/h5_Elements""))",Chrome 134.0.6998.89,,,15-03-2025 04:57:12,15-03-2025 04:57:12,0.626s,PASSED
+"click(findTestObject(""Object Repository/Page_DEMOQA/li_Check Box""))",Chrome 134.0.6998.89,,,15-03-2025 04:57:12,15-03-2025 04:57:14,1.480s,PASSED
+"click(findTestObject(""Object Repository/Page_DEMOQA/svg_Check Box_rct-icon rct-icon-uncheck""))",Chrome 134.0.6998.89,,,15-03-2025 04:57:14,15-03-2025 04:57:15,0.879s,PASSED
+,,,,,,,
+Test Cases/POSITIVE - Open Link Home DemoQA,Chrome 134.0.6998.89,,,15-03-2025 04:57:15,15-03-2025 04:57:24,9.240s,PASSED
+"openBrowser("""")",Chrome 134.0.6998.89,,,15-03-2025 04:57:15,15-03-2025 04:57:16,0.963s,PASSED
+"navigateToUrl(""https://demoqa.com/"")",Chrome 134.0.6998.89,,,15-03-2025 04:57:16,15-03-2025 04:57:21,5.110s,PASSED
+maximizeWindow(),Chrome 134.0.6998.89,,,15-03-2025 04:57:21,15-03-2025 04:57:21,0.392s,PASSED
+"click(findTestObject(""Page_DEMOQA/h5_Elements""))",Chrome 134.0.6998.89,,,15-03-2025 04:57:21,15-03-2025 04:57:22,0.726s,PASSED
+"click(findTestObject(""Object Repository/Page_DEMOQA/li_Links""))",Chrome 134.0.6998.89,,,15-03-2025 04:57:22,15-03-2025 04:57:23,1.486s,PASSED
+"click(findTestObject(""Object Repository/Page_DEMOQA/a_Home""))",Chrome 134.0.6998.89,,,15-03-2025 04:57:23,15-03-2025 04:57:24,0.540s,PASSED
+,,,,,,,
+Test Cases/POSITIVE - Click Button DemoQA,Chrome 134.0.6998.89,,,15-03-2025 04:57:24,15-03-2025 04:58:11,46.730s,PASSED
+"openBrowser("""")",Chrome 134.0.6998.89,,,15-03-2025 04:57:24,15-03-2025 04:57:25,0.936s,PASSED
+"navigateToUrl(""https://demoqa.com/"")",Chrome 134.0.6998.89,,,15-03-2025 04:57:25,15-03-2025 04:57:32,7.066s,PASSED
+maximizeWindow(),Chrome 134.0.6998.89,,,15-03-2025 04:57:32,15-03-2025 04:57:32,0.398s,PASSED
+delay(2),Chrome 134.0.6998.89,,,15-03-2025 04:57:32,15-03-2025 04:57:34,2.024s,PASSED
+"click(findTestObject(""Page_DEMOQA/h5_Elements""))",Chrome 134.0.6998.89,,,15-03-2025 04:57:34,15-03-2025 04:57:35,0.337s,PASSED
+"click(findTestObject(""Object Repository/Page_DEMOQA/li_Buttons""))",Chrome 134.0.6998.89,,,15-03-2025 04:57:35,15-03-2025 04:57:36,1.506s,PASSED
+"doubleClick(findTestObject(""Object Repository/Page_DEMOQA/button_Double Click Me""))",Chrome 134.0.6998.89,,,15-03-2025 04:57:36,15-03-2025 04:57:39,2.411s,PASSED
+"rightClick(findTestObject(""Object Repository/Page_DEMOQA/button_Right Click Me""))",Chrome 134.0.6998.89,,,15-03-2025 04:57:39,15-03-2025 04:57:39,0.562s,PASSED
+"click(findTestObject(""Object Repository/Page_DEMOQA/button_Click Me""))",Chrome 134.0.6998.89,,,15-03-2025 04:57:39,15-03-2025 04:58:11,31.453s,PASSED
+,,,,,,,
+Test Cases/POSITIVE - Add Table DemoQA,Chrome 134.0.6998.89,,,15-03-2025 04:58:11,15-03-2025 04:58:21,10.795s,PASSED
+"openBrowser("""")",Chrome 134.0.6998.89,,,15-03-2025 04:58:11,15-03-2025 04:58:12,1.229s,PASSED
+"navigateToUrl(""https://www.saucedemo.com/"")",Chrome 134.0.6998.89,,,15-03-2025 04:58:12,15-03-2025 04:58:12,0.494s,PASSED
+"setText(findTestObject(""Object Repository/Page_Swag Labs/input_Swag Labs_user-name""), ""strandard_user"")",Chrome 134.0.6998.89,,,15-03-2025 04:58:12,15-03-2025 04:58:14,2.054s,PASSED
+"click(findTestObject(""Object Repository/Page_Swag Labs/div_Swag Labs_error-message-container""))",Chrome 134.0.6998.89,,,15-03-2025 04:58:14,15-03-2025 04:58:15,0.277s,PASSED
+"setText(findTestObject(""Object Repository/Page_Swag Labs/input_Swag Labs_user-name""), ""standard_user"")",Chrome 134.0.6998.89,,,15-03-2025 04:58:15,15-03-2025 04:58:15,0.519s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Swag Labs/input_Swag Labs_password""), ""qcu24s4901FyWDTwXGr6XA=="")",Chrome 134.0.6998.89,,,15-03-2025 04:58:15,15-03-2025 04:58:16,0.304s,PASSED
+"sendKeys(findTestObject(""Object Repository/Page_Swag Labs/input_Swag Labs_password""), Keys.chord(ENTER))",Chrome 134.0.6998.89,,,15-03-2025 04:58:16,15-03-2025 04:58:16,0.267s,PASSED
+"click(findTestObject(""Object Repository/Page_Swag Labs/button_Add to cart""))",Chrome 134.0.6998.89,,,15-03-2025 04:58:16,15-03-2025 04:58:16,0.484s,PASSED
+"click(findTestObject(""Object Repository/Page_Swag Labs/button_Add to cart_1""))",Chrome 134.0.6998.89,,,15-03-2025 04:58:16,15-03-2025 04:58:17,0.481s,PASSED
+"click(findTestObject(""Object Repository/Page_Swag Labs/a_2""))",Chrome 134.0.6998.89,,,15-03-2025 04:58:17,15-03-2025 04:58:17,0.480s,PASSED
+"click(findTestObject(""Object Repository/Page_Swag Labs/button_Checkout""))",Chrome 134.0.6998.89,,,15-03-2025 04:58:17,15-03-2025 04:58:18,0.484s,PASSED
+"setText(findTestObject(""Object Repository/Page_Swag Labs/input_Checkout Your Information_firstName""), ""angga"")",Chrome 134.0.6998.89,,,15-03-2025 04:58:18,15-03-2025 04:58:19,0.731s,PASSED
+"setText(findTestObject(""Object Repository/Page_Swag Labs/input_Checkout Your Information_lastName""), ""trinugraha"")",Chrome 134.0.6998.89,,,15-03-2025 04:58:19,15-03-2025 04:58:19,0.734s,PASSED
+"setText(findTestObject(""Object Repository/Page_Swag Labs/input_Checkout Your Information_postalCode""), ""16451"")",Chrome 134.0.6998.89,,,15-03-2025 04:58:19,15-03-2025 04:58:20,0.735s,PASSED
+"click(findTestObject(""Object Repository/Page_Swag Labs/input_Cancel_continue""))",Chrome 134.0.6998.89,,,15-03-2025 04:58:20,15-03-2025 04:58:20,0.486s,PASSED
+"click(findTestObject(""Object Repository/Page_Swag Labs/button_Finish""))",Chrome 134.0.6998.89,,,15-03-2025 04:58:20,15-03-2025 04:58:21,0.491s,PASSED
+"click(findTestObject(""Object Repository/Page_Swag Labs/button_Back Home""))",Chrome 134.0.6998.89,,,15-03-2025 04:58:21,15-03-2025 04:58:21,0.473s,PASSED
+,,,,,,,
+Test Cases/POSITIVE - Date Picker DemoQA,Chrome 134.0.6998.89,,,15-03-2025 04:58:21,15-03-2025 04:58:50,28.752s,PASSED
+"openBrowser("""")",Chrome 134.0.6998.89,,,15-03-2025 04:58:21,15-03-2025 04:58:22,0.902s,PASSED
+"navigateToUrl(""https://demoqa.com/"")",Chrome 134.0.6998.89,,,15-03-2025 04:58:22,15-03-2025 04:58:23,0.917s,PASSED
+maximizeWindow(),Chrome 134.0.6998.89,,,15-03-2025 04:58:23,15-03-2025 04:58:29,5.654s,PASSED
+"click(findTestObject(""Page_DEMOQA/h5_Elements""))",Chrome 134.0.6998.89,,,15-03-2025 04:58:29,15-03-2025 04:58:30,0.737s,PASSED
+"scrollToElement(findTestObject(""Page_DEMOQA/div_Widgets""), 0)",Chrome 134.0.6998.89,,,15-03-2025 04:58:30,15-03-2025 04:58:31,1.761s,PASSED
+"click(findTestObject(""Page_DEMOQA/div_Widgets""))",Chrome 134.0.6998.89,,,15-03-2025 04:58:31,15-03-2025 04:58:32,0.861s,PASSED
+"click(findTestObject(""Object Repository/Page_DEMOQA/span_Date Picker""))",Chrome 134.0.6998.89,,,15-03-2025 04:58:32,15-03-2025 04:58:33,0.459s,PASSED
+"click(findTestObject(""Object Repository/Page_DEMOQA/input_Select Date_datePickerMonthYearInput""))",Chrome 134.0.6998.89,,,15-03-2025 04:58:33,15-03-2025 04:58:33,0.486s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_DEMOQA/select_190019011902190319041905190619071908_246ee1""), ""1998"", true)",Chrome 134.0.6998.89,,,15-03-2025 04:58:33,15-03-2025 04:58:35,2.189s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_DEMOQA/select_JanuaryFebruaryMarchAprilMayJuneJuly_566629""), ""9"", true)",Chrome 134.0.6998.89,,,15-03-2025 04:58:35,15-03-2025 04:58:36,0.803s,PASSED
+"click(findTestObject(""Object Repository/Page_DEMOQA/div_15""))",Chrome 134.0.6998.89,,,15-03-2025 04:58:36,15-03-2025 04:58:37,0.505s,PASSED
+"click(findTestObject(""Object Repository/Page_DEMOQA/input_Date And Time_dateAndTimePickerInput""))",Chrome 134.0.6998.89,,,15-03-2025 04:58:37,15-03-2025 04:58:37,0.274s,PASSED
+"click(findTestObject(""Object Repository/Page_DEMOQA/span_March_react-datepicker__year-read-view_281a40""))",Chrome 134.0.6998.89,,,15-03-2025 04:58:37,15-03-2025 04:58:38,0.507s,PASSED
+"click(findTestObject(""Page_DEMOQA/a__react-datepicker__navigation react-datepicker__navigation--years react-datepicker__navigation--years-previous""))",Chrome 134.0.6998.89,,,15-03-2025 04:58:38,15-03-2025 04:58:38,0.499s,PASSED
+"click(findTestObject(""Page_DEMOQA/a__react-datepicker__navigation react-datepicker__navigation--years react-datepicker__navigation--years-previous""))",Chrome 134.0.6998.89,,,15-03-2025 04:58:38,15-03-2025 04:58:38,0.474s,PASSED
+"click(findTestObject(""Page_DEMOQA/a__react-datepicker__navigation react-datepicker__navigation--years react-datepicker__navigation--years-previous""))",Chrome 134.0.6998.89,,,15-03-2025 04:58:38,15-03-2025 04:58:39,0.476s,PASSED
+"click(findTestObject(""Page_DEMOQA/a__react-datepicker__navigation react-datepicker__navigation--years react-datepicker__navigation--years-previous""))",Chrome 134.0.6998.89,,,15-03-2025 04:58:39,15-03-2025 04:58:39,0.476s,PASSED
+"click(findTestObject(""Page_DEMOQA/a__react-datepicker__navigation react-datepicker__navigation--years react-datepicker__navigation--years-previous""))",Chrome 134.0.6998.89,,,15-03-2025 04:58:39,15-03-2025 04:58:40,0.476s,PASSED
+"click(findTestObject(""Page_DEMOQA/a__react-datepicker__navigation react-datepicker__navigation--years react-datepicker__navigation--years-previous""))",Chrome 134.0.6998.89,,,15-03-2025 04:58:40,15-03-2025 04:58:40,0.472s,PASSED
+"click(findTestObject(""Page_DEMOQA/a__react-datepicker__navigation react-datepicker__navigation--years react-datepicker__navigation--years-previous""))",Chrome 134.0.6998.89,,,15-03-2025 04:58:40,15-03-2025 04:58:41,0.449s,PASSED
+"click(findTestObject(""Page_DEMOQA/a__react-datepicker__navigation react-datepicker__navigation--years react-datepicker__navigation--years-previous""))",Chrome 134.0.6998.89,,,15-03-2025 04:58:41,15-03-2025 04:58:41,0.474s,PASSED
+"click(findTestObject(""Page_DEMOQA/a__react-datepicker__navigation react-datepicker__navigation--years react-datepicker__navigation--years-previous""))",Chrome 134.0.6998.89,,,15-03-2025 04:58:41,15-03-2025 04:58:42,0.458s,PASSED
+"click(findTestObject(""Page_DEMOQA/a__react-datepicker__navigation react-datepicker__navigation--years react-datepicker__navigation--years-previous""))",Chrome 134.0.6998.89,,,15-03-2025 04:58:42,15-03-2025 04:58:42,0.473s,PASSED
+"click(findTestObject(""Page_DEMOQA/a__react-datepicker__navigation react-datepicker__navigation--years react-datepicker__navigation--years-previous""))",Chrome 134.0.6998.89,,,15-03-2025 04:58:42,15-03-2025 04:58:43,0.474s,PASSED
+"click(findTestObject(""Page_DEMOQA/a__react-datepicker__navigation react-datepicker__navigation--years react-datepicker__navigation--years-previous""))",Chrome 134.0.6998.89,,,15-03-2025 04:58:43,15-03-2025 04:58:43,0.473s,PASSED
+"click(findTestObject(""Page_DEMOQA/a__react-datepicker__navigation react-datepicker__navigation--years react-datepicker__navigation--years-previous""))",Chrome 134.0.6998.89,,,15-03-2025 04:58:43,15-03-2025 04:58:44,0.480s,PASSED
+"click(findTestObject(""Page_DEMOQA/a__react-datepicker__navigation react-datepicker__navigation--years react-datepicker__navigation--years-previous""))",Chrome 134.0.6998.89,,,15-03-2025 04:58:44,15-03-2025 04:58:44,0.475s,PASSED
+"click(findTestObject(""Page_DEMOQA/a__react-datepicker__navigation react-datepicker__navigation--years react-datepicker__navigation--years-previous""))",Chrome 134.0.6998.89,,,15-03-2025 04:58:44,15-03-2025 04:58:45,0.475s,PASSED
+"click(findTestObject(""Page_DEMOQA/a__react-datepicker__navigation react-datepicker__navigation--years react-datepicker__navigation--years-previous""), STOP_ON_FAILURE)",Chrome 134.0.6998.89,,,15-03-2025 04:58:45,15-03-2025 04:58:45,0.476s,PASSED
+"click(findTestObject(""Page_DEMOQA/a__react-datepicker__navigation react-datepicker__navigation--years react-datepicker__navigation--years-previous""))",Chrome 134.0.6998.89,,,15-03-2025 04:58:45,15-03-2025 04:58:46,0.471s,PASSED
+"click(findTestObject(""Page_DEMOQA/a__react-datepicker__navigation react-datepicker__navigation--years react-datepicker__navigation--years-previous""))",Chrome 134.0.6998.89,,,15-03-2025 04:58:46,15-03-2025 04:58:46,0.476s,PASSED
+"click(findTestObject(""Page_DEMOQA/a__react-datepicker__navigation react-datepicker__navigation--years react-datepicker__navigation--years-previous""))",Chrome 134.0.6998.89,,,15-03-2025 04:58:46,15-03-2025 04:58:47,0.475s,PASSED
+"click(findTestObject(""Page_DEMOQA/a__react-datepicker__navigation react-datepicker__navigation--years react-datepicker__navigation--years-previous""))",Chrome 134.0.6998.89,,,15-03-2025 04:58:47,15-03-2025 04:58:47,0.475s,PASSED
+"click(findTestObject(""Page_DEMOQA/a__react-datepicker__navigation react-datepicker__navigation--years react-datepicker__navigation--years-previous""))",Chrome 134.0.6998.89,,,15-03-2025 04:58:47,15-03-2025 04:58:47,0.481s,PASSED
+"click(findTestObject(""Page_DEMOQA/a__react-datepicker__navigation react-datepicker__navigation--years react-datepicker__navigation--years-previous""))",Chrome 134.0.6998.89,,,15-03-2025 04:58:47,15-03-2025 04:58:48,0.472s,PASSED
+"click(findTestObject(""Object Repository/Page_DEMOQA/div_1998""))",Chrome 134.0.6998.89,,,15-03-2025 04:58:48,15-03-2025 04:58:48,0.491s,PASSED
+"click(findTestObject(""Object Repository/Page_DEMOQA/span_March 1998_react-datepicker__month-rea_d49733""))",Chrome 134.0.6998.89,,,15-03-2025 04:58:48,15-03-2025 04:58:49,0.478s,PASSED
+"click(findTestObject(""Object Repository/Page_DEMOQA/div_October""))",Chrome 134.0.6998.89,,,15-03-2025 04:58:49,15-03-2025 04:58:49,0.478s,PASSED
+"click(findTestObject(""Page_DEMOQA/div_15_1""))",Chrome 134.0.6998.89,,,15-03-2025 04:58:49,15-03-2025 04:58:50,0.493s,PASSED
+"click(findTestObject(""Object Repository/Page_DEMOQA/li_0500""))",Chrome 134.0.6998.89,,,15-03-2025 04:58:50,15-03-2025 04:58:50,0.289s,PASSED
+,,,,,,,
+Test Cases/POSITIVE - Isi Form DemoQA,Chrome 134.0.6998.89,,,15-03-2025 04:58:50,15-03-2025 04:59:44,54.025s,PASSED
+"openBrowser("""")",Chrome 134.0.6998.89,,,15-03-2025 04:58:50,15-03-2025 04:58:51,0.922s,PASSED
+"navigateToUrl(""https://demoqa.com/"")",Chrome 134.0.6998.89,,,15-03-2025 04:58:51,15-03-2025 04:58:58,7.121s,PASSED
+maximizeWindow(),Chrome 134.0.6998.89,,,15-03-2025 04:58:58,15-03-2025 04:58:59,0.392s,PASSED
+"scrollToElement(findTestObject(""Page_DEMOQA/h5_Elements""), 0)",Chrome 134.0.6998.89,,,15-03-2025 04:58:59,15-03-2025 04:58:59,0.650s,PASSED
+"click(findTestObject(""Object Repository/Page_DEMOQA/h5_Elements""))",Chrome 134.0.6998.89,,,15-03-2025 04:58:59,15-03-2025 04:59:00,0.458s,PASSED
+"scrollToElement(findTestObject(""Page_DEMOQA/div_Forms""), 0)",Chrome 134.0.6998.89,,,15-03-2025 04:59:00,15-03-2025 04:59:01,1.549s,PASSED
+"click(findTestObject(""Object Repository/Page_DEMOQA/div_Forms""))",Chrome 134.0.6998.89,,,15-03-2025 04:59:01,15-03-2025 04:59:02,0.658s,PASSED
+"click(findTestObject(""Object Repository/Page_DEMOQA/span_Practice Form""))",Chrome 134.0.6998.89,,,15-03-2025 04:59:02,15-03-2025 04:59:04,1.824s,PASSED
+"setText(findTestObject(""Object Repository/Page_DEMOQA/input_Name_firstName""), ""angga"")",Chrome 134.0.6998.89,,,15-03-2025 04:59:04,15-03-2025 04:59:05,0.788s,PASSED
+"setText(findTestObject(""Object Repository/Page_DEMOQA/input_Name_lastName""), ""trinugraha"")",Chrome 134.0.6998.89,,,15-03-2025 04:59:05,15-03-2025 04:59:05,0.514s,PASSED
+"setText(findTestObject(""Object Repository/Page_DEMOQA/input_Email_userEmail""), ""anggatri78@gmail.com"")",Chrome 134.0.6998.89,,,15-03-2025 04:59:05,15-03-2025 04:59:06,0.517s,PASSED
+"click(findTestObject(""Object Repository/Page_DEMOQA/label_Male""))",Chrome 134.0.6998.89,,,15-03-2025 04:59:06,15-03-2025 04:59:06,0.280s,PASSED
+"setText(findTestObject(""Object Repository/Page_DEMOQA/input_(10 Digits)_userNumber""), ""0877884750"")",Chrome 134.0.6998.89,,,15-03-2025 04:59:06,15-03-2025 04:59:06,0.464s,PASSED
+"scrollToElement(findTestObject(""Page_DEMOQA/input_Date of Birth_dateOfBirthInput""), 0)",Chrome 134.0.6998.89,,,15-03-2025 04:59:06,15-03-2025 04:59:07,0.229s,PASSED
+"setText(findTestObject(""Object Repository/Page_DEMOQA/input_Date of Birth_dateOfBirthInput""), ""15 Mar 2025"")",Chrome 134.0.6998.89,,,15-03-2025 04:59:07,15-03-2025 04:59:07,0.788s,PASSED
+"click(findTestObject(""Object Repository/Page_DEMOQA/div_15""))",Chrome 134.0.6998.89,,,15-03-2025 04:59:07,15-03-2025 04:59:39,31.400s,PASSED
+"click(findTestObject(""Object Repository/Page_DEMOQA/div_Subjects_subjects-auto-complete__value-_d244cf""))",Chrome 134.0.6998.89,,,15-03-2025 04:59:39,15-03-2025 04:59:39,0.292s,PASSED
+"setText(findTestObject(""Object Repository/Page_DEMOQA/input_Subjects_subjectsInput""), ""kerja"")",Chrome 134.0.6998.89,,,15-03-2025 04:59:39,15-03-2025 04:59:40,0.709s,PASSED
+"click(findTestObject(""Object Repository/Page_DEMOQA/label_Sports""))",Chrome 134.0.6998.89,,,15-03-2025 04:59:40,15-03-2025 04:59:40,0.486s,PASSED
+"rightClick(findTestObject(""Object Repository/Page_DEMOQA/input_Select picture_uploadPicture""))",Chrome 134.0.6998.89,,,15-03-2025 04:59:40,15-03-2025 04:59:41,0.679s,PASSED
+"uploadFile(findTestObject(""Page_DEMOQA/input_Select picture_uploadPicture""), ""/Users/anggatrinugraha/Downloads/sampleFile.jpeg"")",Chrome 134.0.6998.89,,,15-03-2025 04:59:41,15-03-2025 04:59:41,0.259s,PASSED
+"setText(findTestObject(""Object Repository/Page_DEMOQA/textarea_Current Address_currentAddress""), ""kucica"")",Chrome 134.0.6998.89,,,15-03-2025 04:59:41,15-03-2025 04:59:42,0.517s,PASSED
+"click(findTestObject(""Object Repository/Page_DEMOQA/div""))",Chrome 134.0.6998.89,,,15-03-2025 04:59:42,15-03-2025 04:59:42,0.272s,PASSED
+"click(findTestObject(""Object Repository/Page_DEMOQA/svg_Select State_css-19bqh2r""))",Chrome 134.0.6998.89,,,15-03-2025 04:59:42,15-03-2025 04:59:42,0.274s,PASSED
+"click(findTestObject(""Object Repository/Page_DEMOQA/div_Haryana""))",Chrome 134.0.6998.89,,,15-03-2025 04:59:42,15-03-2025 04:59:43,0.483s,PASSED
+"click(findTestObject(""Object Repository/Page_DEMOQA/svg_Select City_css-19bqh2r""))",Chrome 134.0.6998.89,,,15-03-2025 04:59:43,15-03-2025 04:59:43,0.491s,PASSED
+"click(findTestObject(""Object Repository/Page_DEMOQA/div_Panipat""))",Chrome 134.0.6998.89,,,15-03-2025 04:59:43,15-03-2025 04:59:44,0.482s,PASSED
+"click(findTestObject(""Object Repository/Page_DEMOQA/button_Submit""))",Chrome 134.0.6998.89,,,15-03-2025 04:59:44,15-03-2025 04:59:44,0.496s,PASSED
+,,,,,,,
+Test Cases/POSITIVE - Buka Tab DemoQA,Chrome 134.0.6998.89,,,15-03-2025 04:59:44,15-03-2025 04:59:59,14.296s,PASSED
+"openBrowser("""")",Chrome 134.0.6998.89,,,15-03-2025 04:59:44,15-03-2025 04:59:45,1.139s,PASSED
+"navigateToUrl(""https://demoqa.com/"")",Chrome 134.0.6998.89,,,15-03-2025 04:59:45,15-03-2025 04:59:52,6.628s,PASSED
+maximizeWindow(),Chrome 134.0.6998.89,,,15-03-2025 04:59:52,15-03-2025 04:59:52,0.397s,PASSED
+"click(findTestObject(""Page_DEMOQA/h5_Elements""))",Chrome 134.0.6998.89,,,15-03-2025 04:59:52,15-03-2025 04:59:53,0.838s,PASSED
+"scrollToElement(findTestObject(""Page_DEMOQA/div_Alerts, Frame  Windows""), 0)",Chrome 134.0.6998.89,,,15-03-2025 04:59:53,15-03-2025 04:59:55,1.404s,PASSED
+"click(findTestObject(""Object Repository/Page_DEMOQA/div_Alerts, Frame  Windows""))",Chrome 134.0.6998.89,,,15-03-2025 04:59:55,15-03-2025 04:59:55,0.251s,PASSED
+"click(findTestObject(""Object Repository/Page_DEMOQA/span_Browser Windows""))",Chrome 134.0.6998.89,,,15-03-2025 04:59:55,15-03-2025 04:59:55,0.460s,PASSED
+"click(findTestObject(""Object Repository/Page_DEMOQA/button_New Tab""))",Chrome 134.0.6998.89,,,15-03-2025 04:59:55,15-03-2025 04:59:56,0.504s,PASSED
+"click(findTestObject(""Object Repository/Page_DEMOQA/button_New Window""))",Chrome 134.0.6998.89,,,15-03-2025 04:59:56,15-03-2025 04:59:58,1.919s,PASSED
+"switchToWindowTitle(""DEMOQA"")",Chrome 134.0.6998.89,,,15-03-2025 04:59:58,15-03-2025 04:59:58,0.246s,PASSED
+"click(findTestObject(""Object Repository/Page_DEMOQA/button_New Window Message""))",Chrome 134.0.6998.89,,,15-03-2025 04:59:58,15-03-2025 04:59:59,0.488s,PASSED

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a__react-datepicker__navigation react-datepicker__navigation--years react-datepicker__navigation--years-previous</name>
+   <tag></tag>
+   <elementGuidId>4ddc2ea9-7c72-4923-8951-a59334c8c9f8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>a.react-datepicker__navigation.react-datepicker__navigation--years.react-datepicker__navigation--years-previous</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='dateAndTimePicker']/div[2]/div[2]/div/div/div[2]/div/div[2]/div[2]/div/div[13]/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>a >> nth=3</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>efacce49-3cd1-4a14-a761-fc753e51ffa3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>react-datepicker__navigation react-datepicker__navigation--years react-datepicker__navigation--years-previous</value>
+      <webElementGuid>4b85f42d-8205-4a1a-8228-85d90492125d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;dateAndTimePicker&quot;)/div[@class=&quot;react-datepicker__tab-loop&quot;]/div[@class=&quot;react-datepicker-popper&quot;]/div[1]/div[@class=&quot;react-datepicker&quot;]/div[@class=&quot;react-datepicker__month-container&quot;]/div[@class=&quot;react-datepicker__header&quot;]/div[@class=&quot;react-datepicker__header__dropdown react-datepicker__header__dropdown--scroll&quot;]/div[@class=&quot;react-datepicker__year-dropdown-container react-datepicker__year-dropdown-container--scroll&quot;]/div[@class=&quot;react-datepicker__year-dropdown&quot;]/div[@class=&quot;react-datepicker__year-option&quot;]/a[@class=&quot;react-datepicker__navigation react-datepicker__navigation--years react-datepicker__navigation--years-previous&quot;]</value>
+      <webElementGuid>49610f53-3d34-4d0a-baa4-18edfe0555b2</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='dateAndTimePicker']/div[2]/div[2]/div/div/div[2]/div/div[2]/div[2]/div/div[13]/a</value>
+      <webElementGuid>60e2e530-ffa7-4da0-9b76-6e02a8947e7d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[13]/a</value>
+      <webElementGuid>62285047-f2d3-4cc6-a068-72ea6e98f5cd</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
