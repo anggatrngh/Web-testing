@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>path</value>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -18,7 +18,7 @@
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>path >> nth=0</value>
+         <value>div:nth-child(4) > div > .avatar > svg > path</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -29,15 +29,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>path</value>
-      <webElementGuid>df86be25-084e-487b-b43e-d29f3ce6814b</webElementGuid>
+      <webElementGuid>772919b3-16bd-464e-9ecd-9bb0a1f3bace</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>d</name>
       <type>Main</type>
-      <value>M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z</value>
-      <webElementGuid>9dc422a7-e32b-4175-9dcb-1b24046f63f2</webElementGuid>
+      <value>M13 13v8h8v-8h-8zM3 21h8v-8H3v8zM3 3v8h8V3H3zm13.66-1.31L11 7.34 16.66 13l5.66-5.66-5.66-5.65z</value>
+      <webElementGuid>223cd317-6256-4ef5-99f0-39850ea719fa</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,6 +45,6 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;app&quot;)/div[@class=&quot;body-height&quot;]/div[@class=&quot;home-content&quot;]/div[@class=&quot;home-body&quot;]/div[@class=&quot;category-cards&quot;]/div[@class=&quot;card mt-4 top-card&quot;]/div[1]/div[@class=&quot;avatar mx-auto white&quot;]/svg[1]/path[1]</value>
-      <webElementGuid>4b59ffe0-d1bf-4534-8773-c1cbce267e9b</webElementGuid>
+      <webElementGuid>da04faf5-c306-4104-b1d6-82f921f2e0ea</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

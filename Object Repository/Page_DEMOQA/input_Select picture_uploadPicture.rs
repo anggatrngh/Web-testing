@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>textarea_Current Address_currentAddress</name>
+   <name>input_Select picture_uploadPicture</name>
    <tag></tag>
-   <elementGuidId>04f88b91-f2c4-4c3a-b0ab-3ba94003ff03</elementGuidId>
+   <elementGuidId>65c70415-5bf8-4024-8d74-7496abda5278</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>#currentAddress</value>
+         <value>#uploadPicture</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//textarea[@id='currentAddress']</value>
+         <value>//input[@id='uploadPicture']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:attr=[placeholder=&quot;Current Address&quot;i]</value>
+         <value>internal:label=&quot;Select picture&quot;i</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -28,87 +28,79 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>textarea</value>
-      <webElementGuid>09996416-abc7-46cd-b24e-cd2cc80e1e26</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>placeholder</name>
-      <type>Main</type>
-      <value>Current Address</value>
-      <webElementGuid>4b6ca46f-0a62-46ae-bb04-1b9943f1c01f</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>rows</name>
-      <type>Main</type>
-      <value>5</value>
-      <webElementGuid>10794c41-be9e-4a63-a65f-2456ee069fee</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>cols</name>
-      <type>Main</type>
-      <value>20</value>
-      <webElementGuid>135846e8-515d-4d53-85d1-b6d989bde41d</webElementGuid>
+      <value>input</value>
+      <webElementGuid>c5c6bdd0-ce5f-4331-9697-0b5f901fa1bc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>currentAddress</value>
-      <webElementGuid>a9d6e523-603f-4171-972f-4ccbeee48dd0</webElementGuid>
+      <value>uploadPicture</value>
+      <webElementGuid>f1d0a978-d1e0-4052-b933-21b661dbff25</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>file</value>
+      <webElementGuid>fc031ccd-080a-4666-bb24-b8027f0e2ba2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>lang</name>
+      <type>Main</type>
+      <value>en</value>
+      <webElementGuid>4d7f5f67-3800-41e0-877d-52edb8774411</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>form-control</value>
-      <webElementGuid>59f151a3-bae2-47aa-9efe-dffb88acc31f</webElementGuid>
+      <value>form-control-file</value>
+      <webElementGuid>1bf52da8-98d9-4b99-8b3c-35b83fd04c8b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;currentAddress&quot;)</value>
-      <webElementGuid>9258a639-0737-499a-890b-a24aa59f8436</webElementGuid>
+      <value>id(&quot;uploadPicture&quot;)</value>
+      <webElementGuid>bcf72d2c-525d-4f58-9d04-a511dc232b81</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//textarea[@id='currentAddress']</value>
-      <webElementGuid>113d7a3d-e754-4dfd-9bea-691cd41481bd</webElementGuid>
+      <value>//input[@id='uploadPicture']</value>
+      <webElementGuid>6ec234e7-c261-46ff-8526-38948ac2d056</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='currentAddress-wrapper']/div[2]/textarea</value>
-      <webElementGuid>f17ecb64-2776-4f68-b449-c82507dce554</webElementGuid>
+      <value>//form[@id='userForm']/div[8]/div[2]/div/input</value>
+      <webElementGuid>8a949002-8614-4e3b-a3b6-b14158b81489</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//textarea</value>
-      <webElementGuid>54ce859e-0068-47fa-b369-b826e48488a2</webElementGuid>
+      <value>//div[8]/div[2]/div/input</value>
+      <webElementGuid>64c763c5-683e-4075-9d0d-3e5d0e842c2f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//textarea[@placeholder = 'Current Address' and @id = 'currentAddress']</value>
-      <webElementGuid>2a128a15-02f2-4959-93fb-013784e2eb46</webElementGuid>
+      <value>//input[@id = 'uploadPicture' and @type = 'file']</value>
+      <webElementGuid>3a2bac35-f721-48a7-a117-e2bbc63c0e5e</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

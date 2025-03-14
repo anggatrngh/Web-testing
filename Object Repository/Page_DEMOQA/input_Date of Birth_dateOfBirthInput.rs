@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>textarea_Current Address_currentAddress</name>
+   <name>input_Date of Birth_dateOfBirthInput</name>
    <tag></tag>
-   <elementGuidId>04f88b91-f2c4-4c3a-b0ab-3ba94003ff03</elementGuidId>
+   <elementGuidId>51e16edb-1881-4d40-be5b-b54a5a275d32</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>#currentAddress</value>
+         <value>#dateOfBirthInput</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//textarea[@id='currentAddress']</value>
+         <value>//input[@id='dateOfBirthInput']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:attr=[placeholder=&quot;Current Address&quot;i]</value>
+         <value>#dateOfBirthInput</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -28,40 +28,24 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>textarea</value>
-      <webElementGuid>09996416-abc7-46cd-b24e-cd2cc80e1e26</webElementGuid>
+      <value>input</value>
+      <webElementGuid>5554a3c4-fcf1-444e-af5e-8394256a84e7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>placeholder</name>
+      <name>type</name>
       <type>Main</type>
-      <value>Current Address</value>
-      <webElementGuid>4b6ca46f-0a62-46ae-bb04-1b9943f1c01f</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>rows</name>
-      <type>Main</type>
-      <value>5</value>
-      <webElementGuid>10794c41-be9e-4a63-a65f-2456ee069fee</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>cols</name>
-      <type>Main</type>
-      <value>20</value>
-      <webElementGuid>135846e8-515d-4d53-85d1-b6d989bde41d</webElementGuid>
+      <value>text</value>
+      <webElementGuid>63d0d8ae-e1ba-4779-947d-66a071ae11f7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>currentAddress</value>
-      <webElementGuid>a9d6e523-603f-4171-972f-4ccbeee48dd0</webElementGuid>
+      <value>dateOfBirthInput</value>
+      <webElementGuid>03d1a9ec-97e8-40db-a213-a0759f41c1ee</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,46 +53,54 @@
       <name>class</name>
       <type>Main</type>
       <value>form-control</value>
-      <webElementGuid>59f151a3-bae2-47aa-9efe-dffb88acc31f</webElementGuid>
+      <webElementGuid>e9d56510-73ef-4a47-a115-df5486705ced</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>15 Mar 2025</value>
+      <webElementGuid>e1cabeab-6337-4528-a342-259b74d3212d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;currentAddress&quot;)</value>
-      <webElementGuid>9258a639-0737-499a-890b-a24aa59f8436</webElementGuid>
+      <value>id(&quot;dateOfBirthInput&quot;)</value>
+      <webElementGuid>5f11975e-080f-40da-b7fd-51425c8cb1de</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//textarea[@id='currentAddress']</value>
-      <webElementGuid>113d7a3d-e754-4dfd-9bea-691cd41481bd</webElementGuid>
+      <value>//input[@id='dateOfBirthInput']</value>
+      <webElementGuid>9b004e47-cc6b-4689-bcc7-edd49709b652</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='currentAddress-wrapper']/div[2]/textarea</value>
-      <webElementGuid>f17ecb64-2776-4f68-b449-c82507dce554</webElementGuid>
+      <value>//div[@id='dateOfBirth']/div/div/input</value>
+      <webElementGuid>3e6c6801-72a0-4ba7-9121-19ca27ef8207</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//textarea</value>
-      <webElementGuid>54ce859e-0068-47fa-b369-b826e48488a2</webElementGuid>
+      <value>//div[2]/div/div/input</value>
+      <webElementGuid>f0837b2d-0a01-48a9-9299-41d7af542284</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//textarea[@placeholder = 'Current Address' and @id = 'currentAddress']</value>
-      <webElementGuid>2a128a15-02f2-4959-93fb-013784e2eb46</webElementGuid>
+      <value>//input[@type = 'text' and @id = 'dateOfBirthInput']</value>
+      <webElementGuid>1dbeef5b-e24f-4c5c-8571-f70640539f2a</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
