@@ -21,15 +21,17 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://demoqa.com/')
 
-WebUI.click(findTestObject('Object Repository/Page_DEMOQA/svg'))
+WebUI.maximizeWindow()
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Page_DEMOQA/h5_Elements'))
 
 WebUI.click(findTestObject('Object Repository/Page_DEMOQA/li_Buttons'))
 
 WebUI.doubleClick(findTestObject('Object Repository/Page_DEMOQA/button_Double Click Me'))
 
-WebUI.click(findTestObject('Object Repository/Page_DEMOQA/button_Right Click Me'))
+WebUI.rightClick(findTestObject('Object Repository/Page_DEMOQA/button_Right Click Me'))
 
 WebUI.click(findTestObject('Object Repository/Page_DEMOQA/button_Click Me'))
-
-WebUI.rightClick(findTestObject('Object Repository/Page_DEMOQA/button_Right Click Me'))
 

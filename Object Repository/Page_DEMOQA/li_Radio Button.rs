@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>li</value>
-      <webElementGuid>fe7f85bd-d907-4cd6-840b-7cc3d250879f</webElementGuid>
+      <webElementGuid>444ea554-deb2-4da5-a514-7dd7f32c2a2c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-light </value>
-      <webElementGuid>6ccd88a0-3b04-40cb-9530-5d3a2d045f63</webElementGuid>
+      <webElementGuid>f07aeec6-3d52-457c-8c7c-07b5546db89a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>id</name>
       <type>Main</type>
       <value>item-2</value>
-      <webElementGuid>0ae9f621-ddaf-40a1-9ac3-432fbd393663</webElementGuid>
+      <webElementGuid>60977aa5-2f09-4ce9-81ae-a0332ff01668</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Radio Button</value>
-      <webElementGuid>0418e0de-c54b-4dce-b47c-e9eaa1663100</webElementGuid>
+      <webElementGuid>983a5648-8d67-48de-859e-0168463fcb34</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;app&quot;)/div[@class=&quot;body-height&quot;]/div[@class=&quot;container playgound-body&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-12 mt-4  col-md-3&quot;]/div[@class=&quot;left-pannel&quot;]/div[@class=&quot;accordion&quot;]/div[@class=&quot;element-group&quot;]/div[@class=&quot;element-list collapse show&quot;]/ul[@class=&quot;menu-list&quot;]/li[@id=&quot;item-2&quot;]</value>
-      <webElementGuid>26096c08-fd79-45f0-ae8f-61ade7361c0c</webElementGuid>
+      <webElementGuid>1b81e4dc-0a8a-423e-b383-66c7cd8cff33</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//li[@id='item-2']</value>
-      <webElementGuid>6ab11502-75eb-4ac4-8a4f-b1f508c47f42</webElementGuid>
+      <webElementGuid>a6917c4a-ec80-47e7-a9ba-ab0ea435ee30</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='app']/div/div/div/div/div/div/div/div/ul/li[3]</value>
-      <webElementGuid>625bcf3a-2f9d-471f-bf25-579fbb3ede0a</webElementGuid>
+      <webElementGuid>56922e36-6b22-4d1e-8ef0-730c80f5dddc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Check Box'])[1]/following::li[1]</value>
-      <webElementGuid>e3317023-dd1f-4755-9f9c-6ca668bbfa24</webElementGuid>
+      <webElementGuid>641996bd-6cb0-4023-a3de-a1d291bfccc7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Text Box'])[1]/following::li[2]</value>
-      <webElementGuid>b3c613b9-d7e6-4bad-8b9a-7fc1c444214a</webElementGuid>
+      <webElementGuid>38ecf5bd-a996-43bc-bb11-3405b6e13239</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Web Tables'])[1]/preceding::li[1]</value>
-      <webElementGuid>429d2cf0-12c6-462c-8806-d761726acb51</webElementGuid>
+      <webElementGuid>dffdbb7b-8245-45ec-a2da-b98c5f53b596</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li[3]</value>
-      <webElementGuid>8d25f87b-c94b-4459-9a20-1f051d635dc0</webElementGuid>
+      <webElementGuid>3ea661b6-ba87-483b-a506-254a3bac63c1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,6 +117,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//li[@id = 'item-2' and (text() = 'Radio Button' or . = 'Radio Button')]</value>
-      <webElementGuid>9b9e5937-10f5-4469-be3c-5d0ed609df16</webElementGuid>
+      <webElementGuid>42a95f8a-c865-4742-8522-fb932e473034</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
