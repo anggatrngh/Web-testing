@@ -12,13 +12,6 @@
    <rerunImmediately>true</rerunImmediately>
    <testSuiteGuid>95a0bed3-bd91-477e-a43f-accd0be93216</testSuiteGuid>
    <testCaseLink>
-      <guid>ca991d97-a534-4446-b917-89240cb6e6d1</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/POSITIVE - Text Box DemoQA</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
       <guid>b210a15e-de93-4ee1-bf43-3da8dec13842</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -68,17 +61,24 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>00beebf8-4921-4848-9fbb-fc209e19e494</guid>
+      <guid>1772fde0-901f-423c-bb85-d360548a9530</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/POSITIVE - Isi Form DemoQA</testCaseId>
+      <testCaseId>Test Cases/POSITIVE - Text Box DemoQA</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>b3086ae6-acce-49bc-85b4-24ccb8920aac</guid>
+      <guid>e313c9ac-917a-4cc3-9277-f55c41740532</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/POSITIVE - Buka Tab DemoQA</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>a0da7cef-2524-4cb1-8718-96a5298587d0</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/POSITIVE - Isi Form DemoQA</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>
