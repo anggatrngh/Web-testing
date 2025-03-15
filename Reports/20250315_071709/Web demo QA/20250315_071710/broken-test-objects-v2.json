@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_DEMOQA/button_Click Me",
+      "brokenLocator": "//button[@id\u003d\u0027zUSk3\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027app\u0027]/div/div/div/div[2]/div[2]/div[3]/button",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20250315_071709/Web demo QA/20250315_071710/Object Repository/Page_DEMOQA/button_Click Me_idRelative.png"
+    }
+  ]
+}
